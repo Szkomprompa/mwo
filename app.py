@@ -5,7 +5,7 @@ server = '20.215.221.18,1433'  # Adres serwera i portu SQL Servera w kontenerze
 database = 'master'  # Nazwa bazy danych
 username = 'sa'  # Nazwa uzytkownika (domyslnie 'sa' dla SQL Servera)
 password = 'myPassword1.'  # Haslo uzytkownika
-
+print("bbbb")
 # Tworzenie ciagu polaczenia
 connection_string = 'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={};DATABASE={};UID={};PWD={}'.format(server, database, username, password)
 
