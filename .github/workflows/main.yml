@@ -66,7 +66,7 @@ jobs:
         with:
           app-name: 'Library-app-dev'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_1 }}
           package: '*.jar'
 
   deploy-production:
@@ -88,5 +88,5 @@ jobs:
         with:
           app-name: 'Library-app-production'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_2 }}
           package: '*.jar'
