@@ -24,7 +24,7 @@ def version_change(pom_path):
         raise Exception(f'Error: {e}')
 
 if __name__ == "__main__":
-    pom_path = 'path/to/your/project/pom.xml'
+    pom_path = '/pom.xml'
     try:
         version_change(pom_path)
     except VersionChangeError as ve:
